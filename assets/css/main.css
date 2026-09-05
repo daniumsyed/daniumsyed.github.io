@@ -1,0 +1,270 @@
+:root {
+  --bg: #EFEEEA;
+  --ink: #26262A;
+  --ink-muted: #83837E;
+  --underline: #4E7360;
+  --underline-hover: #345847;
+  --max-width: 560px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Newsreader', Georgia, serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Grain overlay: fine SVG noise, low opacity, sits above the background,
+   below the content. Purely generated — no image file, no extra bytes. */
+.grain {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  animation: fade-in 900ms ease both;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--underline);
+  transition: text-decoration-color 150ms ease;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration-color: var(--underline-hover);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--underline-hover);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a { transition: none; }
+  main { animation: none; }
+}
+
+/* ---------- Homepage ---------- */
+
+body.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 48px 24px;
+}
+
+p.intro {
+  font-size: 26px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  p.intro {
+    font-size: 21px;
+  }
+}
+
+/* ---------- CV page ---------- */
+
+body.cv-page {
+  --max-width: 680px;
+  padding: 64px 24px 96px;
+}
+
+body.cv-page main {
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--ink-muted);
+  margin-bottom: 48px;
+}
+
+header.cv-header {
+  margin-bottom: 56px;
+}
+
+header.cv-header h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+header.cv-header p.tagline {
+  font-size: 17px;
+  color: var(--ink-muted);
+  margin: 0 0 16px;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+header.cv-header p.contact {
+  font-size: 14px;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+header.cv-header p.contact a {
+  color: var(--ink-muted);
+  text-decoration-color: var(--underline);
+}
+
+section {
+  margin-bottom: 44px;
+}
+
+section > h2 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--ink-muted);
+  margin: 0 0 20px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 108px 1fr;
+  gap: 4px 20px;
+  margin-bottom: 28px;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry .when {
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-muted);
+  padding-top: 2px;
+}
+
+.entry .role {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0 0 2px;
+}
+
+.entry .place {
+  font-size: 14px;
+  color: var(--ink-muted);
+  margin: 0 0 10px;
+}
+
+.entry ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.entry li {
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 6px;
+}
+
+.entry li:last-child {
+  margin-bottom: 0;
+}
+
+.entry p.desc {
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.plain-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plain-list li {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  padding-left: 108px;
+  position: relative;
+}
+
+.plain-list li:last-child {
+  margin-bottom: 0;
+}
+
+.plain-list li .when {
+  position: absolute;
+  left: 0;
+  font-style: italic;
+  color: var(--ink-muted);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 148px 1fr;
+  gap: 10px 20px;
+}
+
+.skills-grid dt {
+  font-size: 14px;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.skills-grid dd {
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 560px) {
+  .entry {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .entry .when {
+    padding-top: 0;
+  }
+  .plain-list li {
+    padding-left: 0;
+  }
+  .plain-list li .when {
+    position: static;
+    display: block;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 2px 0;
+  }
+  .skills-grid dd {
+    margin-bottom: 12px;
+  }
+}
