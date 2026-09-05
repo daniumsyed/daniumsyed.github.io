@@ -1,2 +1,2 @@
 # daniumsyed.github.io
-Personal Website
+No frills personal Website in just raw html and css
