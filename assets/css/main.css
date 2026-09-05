@@ -91,14 +91,16 @@ p.intro {
   }
 }
 
-/* ---------- CV page ---------- */
+/* ---------- Long-form pages (CV, projects) ---------- */
 
-body.cv-page {
+body.cv-page,
+body.projects-page {
   --max-width: 680px;
   padding: 64px 24px 96px;
 }
 
-body.cv-page main {
+body.cv-page main,
+body.projects-page main {
   margin: 0 auto;
 }
 
@@ -110,17 +112,17 @@ body.cv-page main {
   margin-bottom: 48px;
 }
 
-header.cv-header {
+header.page-header {
   margin-bottom: 56px;
 }
 
-header.cv-header h1 {
+header.page-header h1 {
   font-size: 32px;
   font-weight: 500;
   margin: 0 0 8px;
 }
 
-header.cv-header p.tagline {
+header.page-header p.tagline {
   font-size: 17px;
   color: var(--ink-muted);
   margin: 0 0 16px;
@@ -128,13 +130,13 @@ header.cv-header p.tagline {
   line-height: 1.6;
 }
 
-header.cv-header p.contact {
+header.page-header p.contact {
   font-size: 14px;
   color: var(--ink-muted);
   margin: 0;
 }
 
-header.cv-header p.contact a {
+header.page-header p.contact a {
   color: var(--ink-muted);
   text-decoration-color: var(--underline);
 }
