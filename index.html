@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danium Syed</title>
+<meta name="description" content="Danium Syed — researcher and engineer working on security.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1E1E1C;
+    --ink: #E7E6E1;
+    --ink-muted: #8A8A83;
+    --underline: ##4E7360;
+    --underline-hover: #8FC2A3;
+    --max-width: 560px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 48px 24px;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* Grain overlay: fine SVG noise, low opacity, sits above the background,
+     below the text. Purely generated — no image file, no extra bytes. */
+  .grain {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: var(--max-width);
+    animation: fade-in 900ms ease both;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  p.intro {
+    font-size: 26px;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--underline);
+    transition: text-decoration-color 150ms ease;
+  }
+
+  a:hover,
+  a:focus-visible {
+    text-decoration-color: var(--underline-hover);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--underline-hover);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 480px) {
+    p.intro {
+      font-size: 21px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    a {
+      transition: none;
+    }
+    main {
+      animation: none;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <svg class="grain" xmlns="http://www.w3.org/2000/svg">
+    <filter id="grain-filter">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 1
+                0 0 0 0 1
+                0 0 0 0 1
+                0 0 0 0.07 0"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#grain-filter)"/>
+  </svg>
+
+  <main>
+    <p class="intro">
+      I'm Danium, a generalist technologist working on security. The research is on <a href="https://scholar.google.com/citations?user=OWGHxCsAAAAJ&hl=en">Google Scholar</a>,
+      the projects are <a href="projects.html">here</a>, and there's an extended <a href="cv.html">CV</a>
+      if you need it. Say hello on <a href="https://www.linkedin.com/in/danium-syed/">LinkedIn</a>
+      or reach out by <a href="mailto:danium.syed@stu.khas.edu.tr">email</a>.
+    </p>
+  </main>
+
+</body>
+</html>
