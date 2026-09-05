@@ -67,6 +67,7 @@ a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   a { transition: none; }
   main { animation: none; }
+  body.home { animation: none; }
 }
 
 /* ---------- Homepage ---------- */
@@ -77,6 +78,20 @@ body.home {
   justify-content: center;
   min-height: 100vh;
   padding: 48px 24px;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 20% 25%, rgba(143, 194, 163, 0.30), transparent 55%),
+    radial-gradient(circle at 80% 75%, rgba(185, 158, 118, 0.24), transparent 55%),
+    radial-gradient(circle at 50% 50%, rgba(131, 131, 126, 0.18), transparent 60%);
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  animation: ambient-shift 34s ease-in-out infinite alternate;
+}
+
+@keyframes ambient-shift {
+  0%   { background-position: 0% 0%,   100% 100%, 50% 50%; }
+  50%  { background-position: 60% 40%, 30% 70%,   40% 60%; }
+  100% { background-position: 100% 100%, 0% 0%,   60% 40%; }
 }
 
 p.intro {
