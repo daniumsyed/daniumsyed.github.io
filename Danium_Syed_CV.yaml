@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Danium S. Syed
-  headline: Applied Cybersecurity & AI Security
+  headline: Applied Cybersecurity
   location: Berlin, Germany
-  email: danium.syed@gmail.com
+  email: danium.syed@stu.khas.edu.tr
   phone: "+49-1747-01-6505"
   website: https://daniumsyed.github.io
   social_networks:
@@ -182,10 +182,10 @@ settings:
   current_date: today
   render_command:
     output_folder: rendercv_output
-    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    #typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
-    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
-    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    #markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    #html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    #png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
   bold_keywords: []
   pdf_title: Danium S. Syed - CV
