@@ -182,10 +182,15 @@ settings:
   current_date: today
   render_command:
     output_folder: rendercv_output
-    #typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
-    #markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
-    #html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
-    #png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: true
+    dont_generate_pdf: false
+    dont_generate_png: true
   bold_keywords: []
   pdf_title: Danium S. Syed - CV
