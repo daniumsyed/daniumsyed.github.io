@@ -14,7 +14,7 @@
   page-bottom-margin: 0.7in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
-  page-show-footer: true,
+  page-show-footer: false,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
@@ -27,21 +27,21 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "New Computer Modern",
-  typography-font-family-name: "New Computer Modern",
-  typography-font-family-headline: "New Computer Modern",
-  typography-font-family-connections: "New Computer Modern",
-  typography-font-family-section-titles: "New Computer Modern",
+  typography-font-family-body: "XCharter",
+  typography-font-family-name: "XCharter",
+  typography-font-family-headline: "XCharter",
+  typography-font-family-connections: "XCharter",
+  typography-font-family-section-titles: "XCharter",
   typography-font-size-body: 10pt,
-  typography-font-size-name: 30pt,
+  typography-font-size-name: 25pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.4em,
+  typography-font-size-section-titles: 1.2em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: true,
+  typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
@@ -55,29 +55,29 @@
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
-  header-connections-separator: "•",
+  header-connections-separator: "|",
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.3em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-text-based-entries: 0.15cm,
+  sections-space-between-regular-entries: 0.42cm,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0.2cm,
+  entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0cm,
-  entries-highlights-bullet:  "◦" ,
-  entries-highlights-nested-bullet:  "◦" ,
-  entries-highlights-space-left: 0.15cm,
-  entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
-  entries-highlights-space-between-bullet-and-text: 0.5em,
+  entries-summary-space-above: 0.08cm,
+  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-space-left: 0cm,
+  entries-highlights-space-above: 0.08cm,
+  entries-highlights-space-between-items: 0.08cm,
+  entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
     month: 9,
@@ -88,11 +88,11 @@
 
 = Danium S. Syed
 
-  #headline([Applied Cybersecurity & AI Security])
+  #headline([Applied Cybersecurity])
 
 #connections(
   [Berlin, Germany],
-  [#link("mailto:danium.syed@gmail.com", icon: false, if-underline: false, if-color: false)[danium.syed\@gmail.com]],
+  [#link("mailto:danium.syed@stu.khas.edu.tr", icon: false, if-underline: false, if-color: false)[danium.syed\@stu.khas.edu.tr]],
   [#link("tel:+49-174-7016505", icon: false, if-underline: false, if-color: false)[0174 7016505]],
   [#link("https://daniumsyed.github.io/", icon: false, if-underline: false, if-color: false)[daniumsyed.github.io]],
   [#link("https://linkedin.com/in/danium-syed", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/danium-syed]],
@@ -108,15 +108,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Kadir Has University & SRH Berlin University of Applied Sciences]
-
-    #emph[Erasmus Mundus Double Master's] #emph[in] #emph[Applied Cybersecurity (CyberMACS)]
+    #strong[Kadir Has University & SRH Berlin University of Applied Sciences], Erasmus Mundus Double Master's in Applied Cybersecurity (CyberMACS) -- Istanbul & Berlin
 
   ],
   [
-    #emph[Istanbul & Berlin]
-
-    #emph[Sept 2024 – Sept 2026]
+    Sept 2024 – Sept 2026
 
   ],
   main-column-second-row: [
@@ -131,15 +127,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[American International University-Bangladesh (AIUB)]
-
-    #emph[BSc] #emph[in] #emph[Electrical and Electronics Engineering]
+    #strong[American International University-Bangladesh (AIUB)], BSc in Electrical and Electronics Engineering -- Dhaka, Bangladesh
 
   ],
   [
-    #emph[Dhaka, Bangladesh]
-
-    #emph[Sept 2019 – Sept 2023]
+    Sept 2019 – Sept 2023
 
   ],
   main-column-second-row: [
@@ -154,15 +146,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Mount Royal Academy]
-
-    #emph[Pearson Edexcel IGCSE and A-Levels] #emph[in] #emph[International British Curriculum]
+    #strong[Mount Royal Academy], Pearson Edexcel IGCSE and A-Levels in International British Curriculum -- Bangladesh
 
   ],
   [
-    #emph[Bangladesh]
-
-    #emph[June 2017 – June 2019]
+    June 2017 – June 2019
 
   ],
   main-column-second-row: [
@@ -173,15 +161,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[Cybersecurity Intern]
-
-    #emph[Cyberforce]
+    #strong[Cybersecurity Intern], Cyberforce -- Istanbul, Turkey
 
   ],
   [
-    #emph[Istanbul, Turkey]
-
-    #emph[June 2025 – Sept 2025]
+    June 2025 – Sept 2025
 
   ],
   main-column-second-row: [
@@ -198,15 +182,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[System Administrator]
-
-    #emph[SECOM Technologies Ltd.]
+    #strong[System Administrator], SECOM Technologies Ltd. -- Dhaka, Bangladesh
 
   ],
   [
-    #emph[Dhaka, Bangladesh]
-
-    #emph[Mar 2023 – Aug 2024]
+    Mar 2023 – Aug 2024
 
   ],
   main-column-second-row: [
@@ -219,15 +199,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[ICT and DevOps Intern]
-
-    #emph[Grameenphone (Telenor)]
+    #strong[ICT and DevOps Intern], Grameenphone (Telenor) -- Dhaka, Bangladesh
 
   ],
   [
-    #emph[Dhaka, Bangladesh]
-
-    #emph[Jan 2023 – June 2023]
+    Jan 2023 – June 2023
 
   ],
   main-column-second-row: [
@@ -244,15 +220,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[IT Educator]
-
-    #emph[Dignitus International School]
+    #strong[IT Educator], Dignitus International School -- Narayanganj, Bangladesh
 
   ],
   [
-    #emph[Narayanganj, Bangladesh]
-
-    #emph[July 2017 – July 2019]
+    July 2017 – July 2019
 
   ],
   main-column-second-row: [
@@ -271,7 +243,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   [
-    #emph[Jan 2026 – present]
+    Jan 2026 – present
 
   ],
   main-column-second-row: [
@@ -290,7 +262,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   [
-    #emph[Ongoing]
+    Ongoing
 
   ],
   main-column-second-row: [
@@ -309,7 +281,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   [
-    #emph[Jan 2023 – Sept 2023]
+    Jan 2023 – Sept 2023
 
   ],
   main-column-second-row: [
