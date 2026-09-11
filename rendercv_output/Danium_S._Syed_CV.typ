@@ -296,6 +296,23 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
+    #strong[Design and Feasibility Analysis of a LoRa Based Communication System for Disaster Management]
+
+  ],
+  [
+    Aug 2024
+
+  ],
+  main-column-second-row: [
+    #emph[Danium S. Syed], S. B. Hossain, A. Islam, T. A. I. Jim, M. Saniat, R. Zishan
+
+    #link("https://doi.org/10.53799/ajse.v23i2.1055")[10.53799\/ajse.v23i2.1055] (AIUB Journal of Science and Engineering (AJSE), 23, 135-144)
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Reputation and Energy-Aware Dynamic Hybrid Consensus (READ-HC) Model for IIoT]
 
   ],
@@ -313,45 +330,11 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[Design and Feasibility Analysis of a LoRa Based Communication System for Disaster Management]
-
-  ],
-  [
-    Aug 2024
-
-  ],
-  main-column-second-row: [
-    #emph[Danium S. Syed], S. B. Hossain, A. Islam, T. A. I. Jim, M. Saniat, R. Zishan
-
-    (AIUB Journal of Science and Engineering (AJSE), 23, 135-144)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains]
-
-  ],
-  [
-    Sept 2026
-
-  ],
-  main-column-second-row: [
-    #emph[Danium S. Syed]
-
-    (Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings)
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Explainable Botnet Detection Using Flow-Based Random Forest Classification and OSINT Validation]
 
   ],
   [
-    Jan 2026
+    Apr 2026
 
   ],
   main-column-second-row: [
@@ -368,13 +351,30 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   [
-    Jan 2026
+    Oct 2026
 
   ],
   main-column-second-row: [
-    R. Ayoub, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
+    R. Ayoub, #emph[Danium S. Syed], E. O. Njoku
 
     (IACyC 2026)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains]
+
+  ],
+  [
+    Nov 2026
+
+  ],
+  main-column-second-row: [
+    #emph[Danium S. Syed]
+
+    (Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings)
 
   ],
 )
