@@ -173,7 +173,7 @@ cv:
         details: English (IELTS 8.0), Bengali (Native), Turkish (A1), German (A1, ongoing studies)
 
 design:
-  theme: classic
+  theme: sb2nov
 
 locale:
   language: english

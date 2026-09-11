@@ -17,21 +17,21 @@
   page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-name: rgb(0, 0, 0),
+  colors-headline: rgb(0, 0, 0),
+  colors-connections: rgb(0, 0, 0),
+  colors-section-titles: rgb(0, 0, 0),
+  colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Source Sans 3",
-  typography-font-family-name: "Source Sans 3",
-  typography-font-family-headline: "Source Sans 3",
-  typography-font-family-connections: "Source Sans 3",
-  typography-font-family-section-titles: "Source Sans 3",
+  typography-font-family-body: "New Computer Modern",
+  typography-font-family-name: "New Computer Modern",
+  typography-font-family-headline: "New Computer Modern",
+  typography-font-family-connections: "New Computer Modern",
+  typography-font-family-section-titles: "New Computer Modern",
   typography-font-size-body: 10pt,
   typography-font-size-name: 30pt,
   typography-font-size-headline: 10pt,
@@ -45,7 +45,7 @@
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
-  links-underline: false,
+  links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
@@ -53,11 +53,11 @@
   header-space-below-headline: 0.7cm,
   header-space-below-connections: 0.7cm,
   header-connections-hyperlink: true,
-  header-connections-show-icons: true,
-  header-connections-display-urls-instead-of-usernames: false,
-  header-connections-separator: "",
+  header-connections-show-icons: false,
+  header-connections-display-urls-instead-of-usernames: true,
+  header-connections-separator: "•",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
+  section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
@@ -68,12 +68,12 @@
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0cm,
-  entries-highlights-bullet:  "•" ,
-  entries-highlights-nested-bullet:  "•" ,
+  entries-highlights-bullet:  "◦" ,
+  entries-highlights-nested-bullet:  "◦" ,
   entries-highlights-space-left: 0.15cm,
   entries-highlights-space-above: 0cm,
   entries-highlights-space-between-items: 0cm,
@@ -91,12 +91,12 @@
   #headline([Applied Cybersecurity & AI Security])
 
 #connections(
-  [#connection-with-icon("location-dot")[Berlin, Germany]],
-  [#link("mailto:danium.syed@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[danium.syed\@gmail.com]]],
-  [#link("tel:+49-174-7016505", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0174 7016505]]],
-  [#link("https://daniumsyed.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[daniumsyed.github.io]]],
-  [#link("https://linkedin.com/in/danium-syed", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[danium-syed]]],
-  [#link("https://scholar.google.com/citations?user=OWGHxCsAAAAJ", icon: false, if-underline: false, if-color: false)[#connection-with-icon("graduation-cap")[Google Scholar]]],
+  [Berlin, Germany],
+  [#link("mailto:danium.syed@gmail.com", icon: false, if-underline: false, if-color: false)[danium.syed\@gmail.com]],
+  [#link("tel:+49-174-7016505", icon: false, if-underline: false, if-color: false)[0174 7016505]],
+  [#link("https://daniumsyed.github.io/", icon: false, if-underline: false, if-color: false)[daniumsyed.github.io]],
+  [#link("https://linkedin.com/in/danium-syed", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/danium-syed]],
+  [#link("https://scholar.google.com/citations?user=OWGHxCsAAAAJ", icon: false, if-underline: false, if-color: false)[scholar.google.com\/citations?user=OWGHxCsAAAAJ]],
 )
 
 
@@ -108,8 +108,18 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Kadir Has University & SRH Berlin University of Applied Sciences], Applied Cybersecurity (CyberMACS)
+    #strong[Kadir Has University & SRH Berlin University of Applied Sciences]
 
+    #emph[Erasmus Mundus Double Master's] #emph[in] #emph[Applied Cybersecurity (CyberMACS)]
+
+  ],
+  [
+    #emph[Istanbul & Berlin]
+
+    #emph[Sept 2024 – Sept 2026]
+
+  ],
+  main-column-second-row: [
     - Selected among the top 32 students from over 1,000 applications
 
     - Received a fully funded scholarship given to the top applicants
@@ -117,21 +127,22 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - GPA: 3.48\/4.00 (KHAS), 1.8 (SRH)
 
   ],
-  [
-    Istanbul & Berlin
-
-    Sept 2024 – Sept 2026
-
-  ],
-  degree-column: [
-    #strong[Erasmus Mundus Double Master's]
-  ],
 )
 
 #education-entry(
   [
-    #strong[American International University-Bangladesh (AIUB)], Electrical and Electronics Engineering
+    #strong[American International University-Bangladesh (AIUB)]
 
+    #emph[BSc] #emph[in] #emph[Electrical and Electronics Engineering]
+
+  ],
+  [
+    #emph[Dhaka, Bangladesh]
+
+    #emph[Sept 2019 – Sept 2023]
+
+  ],
+  main-column-second-row: [
     - Received multiple awards and studied on a full scholarship since admission
 
     - Graduated top of class with a CGPA of 3.98\/4.00 (1.03 German scale)
@@ -139,30 +150,22 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - Received Best Project Award for Thesis\/Capstone Project
 
   ],
-  [
-    Dhaka, Bangladesh
-
-    Sept 2019 – Sept 2023
-
-  ],
-  degree-column: [
-    #strong[BSc]
-  ],
 )
 
 #education-entry(
   [
-    #strong[Mount Royal Academy], International British Curriculum
+    #strong[Mount Royal Academy]
+
+    #emph[Pearson Edexcel IGCSE and A-Levels] #emph[in] #emph[International British Curriculum]
 
   ],
   [
-    Bangladesh
+    #emph[Bangladesh]
 
-    June 2017 – June 2019
+    #emph[June 2017 – June 2019]
 
   ],
-  degree-column: [
-    #strong[Pearson Edexcel IGCSE and A-Levels]
+  main-column-second-row: [
   ],
 )
 
@@ -170,8 +173,18 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[Cyberforce], Cybersecurity Intern
+    #strong[Cybersecurity Intern]
 
+    #emph[Cyberforce]
+
+  ],
+  [
+    #emph[Istanbul, Turkey]
+
+    #emph[June 2025 – Sept 2025]
+
+  ],
+  main-column-second-row: [
     - Developed internal tools for security testing of LLM\/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
 
     - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
@@ -181,43 +194,43 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - Penetration tested various HackTheBox systems, gaining practical knowledge of web security
 
   ],
-  [
-    Istanbul, Turkey
-
-    June 2025 – Sept 2025
-
-    
-
-    4 months
-
-  ],
 )
 
 #regular-entry(
   [
-    #strong[SECOM Technologies Ltd.], System Administrator
+    #strong[System Administrator]
 
+    #emph[SECOM Technologies Ltd.]
+
+  ],
+  [
+    #emph[Dhaka, Bangladesh]
+
+    #emph[Mar 2023 – Aug 2024]
+
+  ],
+  main-column-second-row: [
     - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
 
     - Administered Proxmox virtualization infrastructure and used Ansible playbooks
 
   ],
-  [
-    Dhaka, Bangladesh
-
-    Mar 2023 – Aug 2024
-
-    
-
-    1 year 6 months
-
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Grameenphone (Telenor)], ICT and DevOps Intern
+    #strong[ICT and DevOps Intern]
 
+    #emph[Grameenphone (Telenor)]
+
+  ],
+  [
+    #emph[Dhaka, Bangladesh]
+
+    #emph[Jan 2023 – June 2023]
+
+  ],
+  main-column-second-row: [
     - Automated ICT workflows and built an internal tool to monitor monthly product revenues across 8 products, presenting them on a dashboard
 
     - Worked on the system architecture formation of Grameenphone Alo, a proprietary IoT platform
@@ -227,35 +240,25 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - Conducted on-site surveys of Grameenphone datacenters
 
   ],
-  [
-    Dhaka, Bangladesh
-
-    Jan 2023 – June 2023
-
-    
-
-    6 months
-
-  ],
 )
 
 #regular-entry(
   [
-    #strong[Dignitus International School], IT Educator
+    #strong[IT Educator]
 
-    - Educated students from grade 8 to 10, with multiple A#sym.ast.basic achievements in taught subjects for board exams
-
-    - Maintained lesson plans and liaised with the international education board Edexcel
+    #emph[Dignitus International School]
 
   ],
   [
-    Narayanganj, Bangladesh
+    #emph[Narayanganj, Bangladesh]
 
-    July 2017 – July 2019
+    #emph[July 2017 – July 2019]
 
-    
+  ],
+  main-column-second-row: [
+    - Educated students from grade 8 to 10, with multiple A#sym.ast.basic achievements in taught subjects for board exams
 
-    2 years 1 month
+    - Maintained lesson plans and liaised with the international education board Edexcel
 
   ],
 )
@@ -266,15 +269,17 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Master's Thesis: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains]
 
+  ],
+  [
+    #emph[Jan 2026 – present]
+
+  ],
+  main-column-second-row: [
     - Conducted security analysis of containerized ML systems to measure prevalence and distribution of embedded model artifacts across Docker ecosystems
 
     - Identified security risks in ML supply chains by statically analyzing model files (PyTorch, TensorFlow, ONNX, Pickle) for unsafe serialization and code execution vulnerabilities
 
     - Built an automated pipeline to extract container filesystems and scan ML artifacts, generating empirical insights into real-world deployment risks
-
-  ],
-  [
-    Jan 2026 – present
 
   ],
 )
@@ -283,15 +288,17 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Linux Home Server (HomeLab)]
 
+  ],
+  [
+    #emph[Ongoing]
+
+  ],
+  main-column-second-row: [
     - Built from scratch and maintains a Debian-based home server for security research, home automation, and media consumption
 
     - Follows DevOps practices and maintains high uptime
 
     - Technology stack: WireGuard, Docker Compose, Proxmox
-
-  ],
-  [
-    Ongoing
 
   ],
 )
@@ -300,13 +307,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Bachelor's Capstone: Long-Range Off-Grid Communication System Deployed with Amphibious Rovers]
 
+  ],
+  [
+    #emph[Jan 2023 – Sept 2023]
+
+  ],
+  main-column-second-row: [
     - Built a mesh communication system using LoRa modulation for deployment in disaster scenarios via amphibious rovers
 
     - Provides text messaging and location-based communication services for affected users in disaster zones
-
-  ],
-  [
-    Jan 2023 – Sept 2023
 
   ],
 )
@@ -317,13 +326,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Reputation and Energy-Aware Dynamic Hybrid Consensus (READ-HC) Model for IIoT]
 
-    S. Mitra, V. S. Sable, #emph[Danium S. Syed]
-
-    #link("https://doi.org/10.31585/jbba-8-2-(3)2025")[10.31585\/jbba-8-2-(3)2025] (The Journal of The British Blockchain Association)
-
   ],
   [
     July 2025
+
+  ],
+  main-column-second-row: [
+    S. Mitra, V. S. Sable, #emph[Danium S. Syed]
+
+    #link("https://doi.org/10.31585/jbba-8-2-(3)2025")[10.31585\/jbba-8-2-(3)2025] (The Journal of The British Blockchain Association)
 
   ],
 )
@@ -332,13 +343,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Design and Feasibility Analysis of a LoRa Based Communication System for Disaster Management]
 
-    #emph[Danium S. Syed], S. B. Hossain, A. Islam, T. A. I. Jim, M. Saniat, R. Zishan
-
-    (AIUB Journal of Science and Engineering (AJSE), 23, 135-144)
-
   ],
   [
     Aug 2024
+
+  ],
+  main-column-second-row: [
+    #emph[Danium S. Syed], S. B. Hossain, A. Islam, T. A. I. Jim, M. Saniat, R. Zishan
+
+    (AIUB Journal of Science and Engineering (AJSE), 23, 135-144)
 
   ],
 )
@@ -347,13 +360,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains]
 
-    #emph[Danium S. Syed]
-
-    (Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings)
-
   ],
   [
     Sept 2026
+
+  ],
+  main-column-second-row: [
+    #emph[Danium S. Syed]
+
+    (Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings)
 
   ],
 )
@@ -362,13 +377,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Explainable Botnet Detection Using Flow-Based Random Forest Classification and OSINT Validation]
 
-    A. Razan, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
-
-    (Proc. CIIT 2026)
-
   ],
   [
     Jan 2026
+
+  ],
+  main-column-second-row: [
+    A. Razan, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
+
+    (Proc. CIIT 2026)
 
   ],
 )
@@ -377,13 +394,15 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   [
     #strong[Analyzing Political Sentiment on Twitter with Zero-Shot Large Language Models]
 
-    R. Ayoub, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
-
-    (IACyC 2026)
-
   ],
   [
     Jan 2026
+
+  ],
+  main-column-second-row: [
+    R. Ayoub, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
+
+    (IACyC 2026)
 
   ],
 )

@@ -12,15 +12,13 @@
 Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, and Artificial Intelligence security research. Currently completing a double Master's degree in Cybersecurity and holding a CCNA certification.
 
 # Education
-## **Kadir Has University & SRH Berlin University of Applied Sciences**, Applied Cybersecurity (CyberMACS)
-
-**Erasmus Mundus Double Master's**
-
-
-Istanbul & Berlin
+## **Kadir Has University & SRH Berlin University of Applied Sciences**
+*Istanbul & Berlin*
 
 
-Sept 2024 – Sept 2026
+*Sept 2024 – Sept 2026*
+
+*Erasmus Mundus Double Master's* *in* *Applied Cybersecurity (CyberMACS)*
 
 - Selected among the top 32 students from over 1,000 applications
 
@@ -30,15 +28,13 @@ Sept 2024 – Sept 2026
 
 
 
-## **American International University-Bangladesh (AIUB)**, Electrical and Electronics Engineering
-
-**BSc**
-
-
-Dhaka, Bangladesh
+## **American International University-Bangladesh (AIUB)**
+*Dhaka, Bangladesh*
 
 
-Sept 2019 – Sept 2023
+*Sept 2019 – Sept 2023*
+
+*BSc* *in* *Electrical and Electronics Engineering*
 
 - Received multiple awards and studied on a full scholarship since admission
 
@@ -48,28 +44,24 @@ Sept 2019 – Sept 2023
 
 
 
-## **Mount Royal Academy**, International British Curriculum
-
-**Pearson Edexcel IGCSE and A-Levels**
-
-
-Bangladesh
+## **Mount Royal Academy**
+*Bangladesh*
 
 
-June 2017 – June 2019
+*June 2017 – June 2019*
+
+*Pearson Edexcel IGCSE and A-Levels* *in* *International British Curriculum*
 
 
 
 # Experience
-## **Cyberforce**, Cybersecurity Intern
+## **Cybersecurity Intern**
 
-Istanbul, Turkey
+*Istanbul, Turkey*
 
-June 2025 – Sept 2025
+*June 2025 – Sept 2025*
 
-
-
-4 months
+*Cyberforce*
 
 - Developed internal tools for security testing of LLM/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
 
@@ -81,15 +73,13 @@ June 2025 – Sept 2025
 
 
 
-## **SECOM Technologies Ltd.**, System Administrator
+## **System Administrator**
 
-Dhaka, Bangladesh
+*Dhaka, Bangladesh*
 
-Mar 2023 – Aug 2024
+*Mar 2023 – Aug 2024*
 
-
-
-1 year 6 months
+*SECOM Technologies Ltd.*
 
 - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
 
@@ -97,15 +87,13 @@ Mar 2023 – Aug 2024
 
 
 
-## **Grameenphone (Telenor)**, ICT and DevOps Intern
+## **ICT and DevOps Intern**
 
-Dhaka, Bangladesh
+*Dhaka, Bangladesh*
 
-Jan 2023 – June 2023
+*Jan 2023 – June 2023*
 
-
-
-6 months
+*Grameenphone (Telenor)*
 
 - Automated ICT workflows and built an internal tool to monitor monthly product revenues across 8 products, presenting them on a dashboard
 
@@ -117,15 +105,13 @@ Jan 2023 – June 2023
 
 
 
-## **Dignitus International School**, IT Educator
+## **IT Educator**
 
-Narayanganj, Bangladesh
+*Narayanganj, Bangladesh*
 
-July 2017 – July 2019
+*July 2017 – July 2019*
 
-
-
-2 years 1 month
+*Dignitus International School*
 
 - Educated students from grade 8 to 10, with multiple A* achievements in taught subjects for board exams
 
@@ -136,7 +122,7 @@ July 2017 – July 2019
 # Projects
 ## **Master's Thesis: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains**
 
-Jan 2026 – present
+*Jan 2026 – present*
 
 - Conducted security analysis of containerized ML systems to measure prevalence and distribution of embedded model artifacts across Docker ecosystems
 
@@ -148,7 +134,7 @@ Jan 2026 – present
 
 ## **Linux Home Server (HomeLab)**
 
-Ongoing
+*Ongoing*
 
 - Built from scratch and maintains a Debian-based home server for security research, home automation, and media consumption
 
@@ -160,7 +146,7 @@ Ongoing
 
 ## **Bachelor's Capstone: Long-Range Off-Grid Communication System Deployed with Amphibious Rovers**
 
-Jan 2023 – Sept 2023
+*Jan 2023 – Sept 2023*
 
 - Built a mesh communication system using LoRa modulation for deployment in disaster scenarios via amphibious rovers
 
