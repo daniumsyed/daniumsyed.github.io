@@ -169,8 +169,8 @@ cv:
         details: Linux, Networking, Virtualization, Containers, Git
       - label: Privacy & AI Security
         details: Differential Privacy, Agentic AI, PyTorch, TensorFlow, vLLM/Ollama
-      - label: Security Analyst
-        details: Microsoft Sentinel, IDS, Threat Intelligence (MITRE ATT&CK), Incident Response, Jira
+      - label: Security Research
+        details: Vulnerability Analysis, Threat Modeling (MITRE ATT&CK), Penetration Testing (Hardware and Software), Incident Response
       - label: Scripting
         details: Python, JavaScript, Bash, LaTeX
       - label: Languages

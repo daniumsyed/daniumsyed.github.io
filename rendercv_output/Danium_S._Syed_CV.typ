@@ -413,7 +413,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #strong[Privacy & AI Security:] Differential Privacy, Agentic AI, PyTorch, TensorFlow, vLLM\/Ollama
 
-#strong[Security Analyst:] Microsoft Sentinel, IDS, Threat Intelligence (MITRE ATT&CK), Incident Response, Jira
+#strong[Security Research:] Vulnerability Analysis, Threat Modeling (MITRE ATT&CK), Penetration Testing (Hardware and Software), Incident Response
 
 #strong[Scripting:] Python, JavaScript, Bash, LaTeX
 
