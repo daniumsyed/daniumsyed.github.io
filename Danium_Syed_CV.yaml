@@ -81,27 +81,6 @@ cv:
           - Educated students from grade 8 to 10, with multiple A* achievements in taught subjects for board exams
           - Maintained lesson plans and liaised with the international education board Edexcel
 
-    projects:
-      - name: "Master's Thesis: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains"
-        start_date: 2026-01
-        end_date: present
-        highlights:
-          - Conducted security analysis of containerized ML systems to measure prevalence and distribution of embedded model artifacts across Docker ecosystems
-          - Identified security risks in ML supply chains by statically analyzing model files (PyTorch, TensorFlow, ONNX, Pickle) for unsafe serialization and code execution vulnerabilities
-          - Built an automated pipeline to extract container filesystems and scan ML artifacts, generating empirical insights into real-world deployment risks
-      - name: Linux Home Server (HomeLab)
-        date: Ongoing
-        highlights:
-          - Built from scratch and maintains a Debian-based home server for security research, home automation, and media consumption
-          - Follows DevOps practices and maintains high uptime
-          - 'Technology stack: WireGuard, Docker Compose, Proxmox'
-      - name: "Bachelor's Capstone: Long-Range Off-Grid Communication System Deployed with Amphibious Rovers"
-        start_date: 2023-01
-        end_date: 2023-09
-        highlights:
-          - Built a mesh communication system using LoRa modulation for deployment in disaster scenarios via amphibious rovers
-          - Provides text messaging and location-based communication services for affected users in disaster zones
-
     publications:
       - title: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains
         authors:
@@ -134,7 +113,7 @@ cv:
         journal: The Journal of The British Blockchain Association
         doi: 10.31585/jbba-8-2-(3)2025
         date: 2025-07
-        
+
       - title: Design and Feasibility Analysis of a LoRa Based Communication System for Disaster Management
         authors:
           - '*Danium S. Syed*'
@@ -146,14 +125,26 @@ cv:
         journal: AIUB Journal of Science and Engineering (AJSE), 23, 135-144
         doi: 10.53799/ajse.v23i2.1055
         date: 2024-08
-        
-
-
-
-
-
-
-
+    projects:
+      - name: "Master's Thesis: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains"
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Conducted security analysis of containerized ML systems to measure prevalence and distribution of embedded model artifacts across Docker ecosystems
+          - Identified security risks in ML supply chains by statically analyzing model files (PyTorch, TensorFlow, ONNX, Pickle) for unsafe serialization and code execution vulnerabilities
+          - Built an automated pipeline to extract container filesystems and scan ML artifacts, generating empirical insights into real-world deployment risks
+      - name: Linux Home Server (HomeLab)
+        date: Ongoing
+        highlights:
+          - Built from scratch and maintains a Debian-based home server for security research, home automation, and media consumption
+          - Follows DevOps practices and maintains high uptime
+          - 'Technology stack: WireGuard, Docker Compose, Proxmox'
+      - name: "Bachelor's Capstone: Long-Range Off-Grid Communication System Deployed with Amphibious Rovers"
+        start_date: 2023-01
+        end_date: 2023-09
+        highlights:
+          - Built a mesh communication system using LoRa modulation for deployment in disaster scenarios via amphibious rovers
+          - Provides text messaging and location-based communication services for affected users in disaster zones
 
     honors_and_awards:
       - bullet: 5th Place (All Solves), CYBERUS Spring School CTF Competition — Lorient, France (2026)
