@@ -125,6 +125,7 @@ cv:
         journal: AIUB Journal of Science and Engineering (AJSE), 23, 135-144
         doi: 10.53799/ajse.v23i2.1055
         date: 2024-08
+        
     projects:
       - name: "Master's Thesis: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains"
         start_date: 2026-01
