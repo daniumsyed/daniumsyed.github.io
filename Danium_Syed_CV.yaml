@@ -85,7 +85,7 @@ cv:
       - title: Security Analysis of Machine Learning Artifacts in Containerized AI Supply Chains
         authors:
           - '*Danium S. Syed*'
-        journal: Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings
+        journal: Submitted to SECITC (Springer LNCS) conference proceedings
         date: 2026-11
 
       - title: Analyzing Political Sentiment on Twitter with Zero-Shot Large Language Models
