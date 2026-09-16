@@ -247,7 +247,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   main-column-second-row: [
     #emph[Danium S. Syed]
 
-    (Submitted to Springer Lecture Notes in Computer Science (LNCS) conference proceedings)
+    (Submitted to SECITC (Springer LNCS) conference proceedings)
 
   ],
 )
