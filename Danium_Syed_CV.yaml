@@ -53,14 +53,6 @@ cv:
           - Developed internal tools for security testing of LLM/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
           - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
           - Penetration tested various HackTheBox systems, gaining practical knowledge of web security
-      - company: SECOM Technologies Ltd.
-        position: System Administrator
-        start_date: 2023-03
-        end_date: 2024-08
-        location: Dhaka, Bangladesh
-        highlights:
-          - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
-          - Administered Proxmox virtualization infrastructure and used Ansible playbooks
       - company: Grameenphone (Telenor)
         position: ICT and DevOps Intern
         start_date: 2023-01
@@ -101,7 +93,7 @@ cv:
           - E. O. Njoku
           - '*Danium S. Syed*'
           - N. Nachevski
-        journal: Proc. CIIT 2026
+        journal: Web Proc. CIIT 2026
         date: 2026-04
 
       - title: Reputation and Energy-Aware Dynamic Hybrid Consensus (READ-HC) Model for IIoT

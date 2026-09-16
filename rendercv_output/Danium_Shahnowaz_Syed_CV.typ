@@ -180,23 +180,6 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #regular-entry(
   [
-    #strong[System Administrator], SECOM Technologies Ltd. -- Dhaka, Bangladesh
-
-  ],
-  [
-    Mar 2023 – Aug 2024
-
-  ],
-  main-column-second-row: [
-    - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
-
-    - Administered Proxmox virtualization infrastructure and used Ansible playbooks
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[ICT and DevOps Intern], Grameenphone (Telenor) -- Dhaka, Bangladesh
 
   ],
@@ -281,7 +264,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   main-column-second-row: [
     A. Razan, E. O. Njoku, #emph[Danium S. Syed], N. Nachevski
 
-    (Proc. CIIT 2026)
+    (Web Proc. CIIT 2026)
 
   ],
 )
