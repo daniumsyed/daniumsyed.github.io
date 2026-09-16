@@ -3,9 +3,9 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Danium S. Syed",
+  name: "Danium Shahnowaz Syed",
   title: "Danium S. Syed - CV",
-  footer: context { [#emph[Danium S. Syed -- #str(here().page())\/#str(counter(page).final().first())]] },
+  footer: context { [#emph[Danium Shahnowaz Syed -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
@@ -81,12 +81,12 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 12,
+    day: 16,
   ),
 )
 
 
-= Danium S. Syed
+= Danium Shahnowaz Syed
 
   #headline([Applied Cybersecurity])
 
@@ -102,7 +102,7 @@
 
 == Summary
 
-Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, and Artificial Intelligence security research. Currently completing a double Master's degree in Cybersecurity and holding a CCNA certification.
+Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, and security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
 
 == Education
 
@@ -146,7 +146,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Mount Royal Academy], Pearson Edexcel IGCSE and A-Levels in International British Curriculum -- Bangladesh
+    #strong[Mount Royal Academy], IGCSE and A-Levels in Pearson Edexcel British Curriculum -- Bangladesh
 
   ],
   [
@@ -172,8 +172,6 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - Developed internal tools for security testing of LLM\/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
 
     - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
-
-    - Gained practical knowledge of ISO 27001 through internship training
 
     - Penetration tested various HackTheBox systems, gaining practical knowledge of web security
 
@@ -266,7 +264,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   main-column-second-row: [
     R. Ayoub, #emph[Danium S. Syed], E. O. Njoku
 
-    (IACyC 2026)
+    (Accepted in Proc. IACyC 2026)
 
   ],
 )
