@@ -1,5 +1,5 @@
 :root {
-  --bg: #E8E3D6;
+  --bg: #E6E5DF;
   --ink: #26241E;
   --ink-muted: #8A7F68;
   --underline: #4E7360;
@@ -85,13 +85,27 @@ p.intro {
   margin: 0;
 }
 
-p.intro .dropcap {
-  float: left;
-  font-size: 3.2em;
-  line-height: 0.82;
+p.intro::first-letter {
   font-weight: 400;
-  padding-top: 4px;
-  padding-right: 8px;
+}
+
+/* initial-letter handles drop-cap sizing and baseline alignment using the
+   font's real metrics — far more reliable than hand-tuning a float.
+   Supported in Chrome, Edge, and Safari; Firefox falls through below. */
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  p.intro::first-letter {
+    -webkit-initial-letter: 2 2;
+    initial-letter: 2 2;
+    margin-right: 6px;
+  }
+}
+
+/* Fallback for browsers without initial-letter support: a modest,
+   non-floated larger letter. Deliberately simple — no float to misalign. */
+@supports not ((initial-letter: 2) or (-webkit-initial-letter: 2)) {
+  p.intro::first-letter {
+    font-size: 1.5em;
+  }
 }
 
 p.intro .name {
