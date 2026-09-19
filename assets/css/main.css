@@ -100,13 +100,10 @@ p.intro::first-letter {
   }
 }
 
-/* Fallback for browsers without initial-letter support: a modest,
-   non-floated larger letter. Deliberately simple — no float to misalign. */
-@supports not ((initial-letter: 2) or (-webkit-initial-letter: 2)) {
-  p.intro::first-letter {
-    font-size: 1.5em;
-  }
-}
+/* Browsers without initial-letter support (currently Firefox) get plain
+   text here rather than a hand-styled fallback — enlarging ::first-letter
+   without a float is prone to line-height overlap bugs in some engines,
+   and a correct paragraph beats a glitchy drop cap. */
 
 p.intro .name {
   font-weight: 500;
