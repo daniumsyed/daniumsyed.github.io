@@ -1,5 +1,5 @@
 :root {
-  --bg: #E9DFC9;
+  --bg: #E8E3D6;
   --ink: #26241E;
   --ink-muted: #8A7F68;
   --underline: #4E7360;
@@ -86,10 +86,12 @@ p.intro {
 }
 
 p.intro .dropcap {
-  font-size: 1.7em;
-  line-height: 1;
-  vertical-align: -0.14em;
-  margin-right: 1px;
+  float: left;
+  font-size: 3.2em;
+  line-height: 0.82;
+  font-weight: 400;
+  padding-top: 4px;
+  padding-right: 8px;
 }
 
 p.intro .name {
