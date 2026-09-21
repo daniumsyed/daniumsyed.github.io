@@ -52,7 +52,7 @@ cv:
         highlights:
           - Developed internal tools for security testing of LLM/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
           - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
-          - Penetration tested various HackTheBox systems, gaining practical knowledge of web security
+          - Conducted security research on Telecom Networks and IoT networks, using the HackkRF One SDR
       - company: Grameenphone (Telenor)
         position: ICT and DevOps Intern
         start_date: 2023-01

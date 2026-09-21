@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 16,
+    day: 21,
   ),
 )
 
@@ -173,7 +173,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
     - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
 
-    - Penetration tested various HackTheBox systems, gaining practical knowledge of web security
+    - Conducted security research on Telecom Networks and IoT networks, using the HackkRF One SDR
 
   ],
 )
