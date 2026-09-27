@@ -134,7 +134,7 @@ cv:
           - Identified security risks in ML supply chains by statically analyzing model files (PyTorch, TensorFlow, ONNX, Pickle) for unsafe serialization and code execution vulnerabilities
           - Built an automated pipeline to extract container filesystems and scan ML artifacts, generating empirical insights into real-world deployment risks
       - name: Linux Home Server (HomeLab)
-        date: Ongoing
+        date: March 2020 - Ongoing
         highlights:
           - Built from scratch and maintains a Debian-based home server for security research, home automation, and media consumption
           - Follows DevOps practices and maintains high uptime

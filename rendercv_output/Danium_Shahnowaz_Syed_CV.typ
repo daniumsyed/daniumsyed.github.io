@@ -347,7 +347,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   [
-    Ongoing
+    March 2020 - Ongoing
 
   ],
   main-column-second-row: [
