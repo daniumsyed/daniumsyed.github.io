@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 21,
+    day: 27,
   ),
 )
 
@@ -174,6 +174,23 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
     - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
 
     - Conducted security research on Telecom Networks and IoT networks, using the HackkRF One SDR
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[System Administrator], SECOM Technologies Ltd. -- Dhaka, Bangladesh
+
+  ],
+  [
+    Mar 2023 – Aug 2024
+
+  ],
+  main-column-second-row: [
+    - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
+
+    - Administered Proxmox virtualization infrastructure and used Ansible playbooks
 
   ],
 )

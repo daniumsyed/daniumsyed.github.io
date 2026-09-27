@@ -53,6 +53,14 @@ cv:
           - Developed internal tools for security testing of LLM/ML models from PyTorch, TensorFlow, Keras, Sklearn, and XGBoost, detecting insecure serialization formats inside Docker containers and malware-corrupted models to prevent model serialization attacks
           - Conducted on-site and offline penetration testing of ML and LLM models; completed all levels of the Gandalf and Prompt Airlines CTFs
           - Conducted security research on Telecom Networks and IoT networks, using the HackkRF One SDR
+      - company: SECOM Technologies Ltd.
+        position: System Administrator
+        start_date: 2023-03
+        end_date: 2024-08
+        location: Dhaka, Bangladesh
+        highlights:
+          - Managed Linux, macOS, and Windows virtual machines supporting internal business applications
+          - Administered Proxmox virtualization infrastructure and used Ansible playbooks
       - company: Grameenphone (Telenor)
         position: ICT and DevOps Intern
         start_date: 2023-01
