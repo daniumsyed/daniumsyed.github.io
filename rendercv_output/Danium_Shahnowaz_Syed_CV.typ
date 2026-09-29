@@ -377,6 +377,17 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
   ],
 )
 
+  #regular-entry(
+  [
+    #strong[More projects: #link("https://daniumsyed.github.io/projects")[daniumsyed.github.io\/projects]]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+  ],
+)
+
 == Honors and Awards
 
 - 5th Place (All Solves), CYBERUS Spring School CTF Competition — Lorient, France (2026)
