@@ -390,7 +390,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 == Honors and Awards
 
-- 5th Place (All Solves), CYBERUS Spring School CTF Competition — Lorient, France (2026)
+- 5th Place (All Solves), CYBERUS Embedded Systems CTF Competition — Lorient, France (2026)
 
 - 2nd Place (All Solves), CyberMACS Winter School CTF Competition — Istanbul, Turkey (2025)
 
