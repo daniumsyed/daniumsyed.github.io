@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 27,
+    day: 29,
   ),
 )
 
@@ -102,7 +102,7 @@
 
 == Summary
 
-Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, and security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
+Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy\/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
 
 == Education
 
