@@ -108,7 +108,7 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Kadir Has University & SRH Berlin University of Applied Sciences], Erasmus Mundus Double Master's in Applied Cybersecurity (CyberMACS) -- Istanbul & Berlin
+    #strong[Kadir Has University & SRH Berlin University of Applied Sciences], Erasmus Mundus Master's in Applied Cybersecurity (CyberMACS) -- Istanbul & Berlin
 
   ],
   [
