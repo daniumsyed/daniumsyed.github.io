@@ -7,10 +7,12 @@ cv:
   phone: "+49-1747-01-6505"
   website: https://daniumsyed.github.io
   social_networks:
-    - network: LinkedIn
-      username: danium-syed
     - network: Google Scholar
       username: OWGHxCsAAAAJ
+  custom_connections:
+    - placeholder: LinkedIn
+      url: https://linkedin.com/in/danium-syed
+      fontawesome_icon: brands/linkedin
   sections:
     summary:
       - Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
@@ -178,6 +180,11 @@ cv:
 
 design:
   theme: engineeringresumes
+  header:
+    connections:
+      display_urls_instead_of_usernames: false
+      hyperlink: true
+      phone_number_format: international
 
 locale:
   language: english

@@ -1,0 +1,93 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Danium S. Syed
+  headline: MSc Student | Part-Time Work
+  location: Berlin, Germany
+  email: danium.syed@gmail.com
+  photo: photo.jpg
+  phone: +49-1747-01-6505
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: danium-syed
+  
+  sections:
+    Profile:
+      - MSc student with work experience in kitchen operations. Reliable, organized, calm under pressure, and comfortable working independently or in a team. Available for part-time work alongside studies.
+
+    Education:
+      - institution: SRH Hochschule Berlin
+        area: Computer Science
+        degree: MSc.
+        location: Berlin, Germany
+
+      - institution: Kadir Has University
+        area: Applied Cybersecurity
+        degree: MSc.
+        location: Istanbul, Türkiye
+
+    Work Experience:
+      - company: TakeoutBD
+        position: Kitchen Staff
+        location:
+        highlights:
+          - Maintained a clean and organized work area.
+          - Worked efficiently in a fast-paced team environment.
+          - Supported daily kitchen operations and followed work procedures.
+
+      - company: Cyberforce
+        position: Cybersecurity Intern
+        location:
+        highlights:
+          - Performed technical security tasks and worked with computer-based tools.
+          - Worked independently while following defined procedures.
+          - Developed strong attention to detail and problem-solving skills.
+
+    Skills:
+      - label: Languages
+        details: English (Advanced), German (Basic)
+
+      - label: Computer Skills
+        details: Microsoft Office, Advanced computer skills, Technical problem solving
+
+      - label: Work Skills
+        details: Communication, Teamwork, Independent working, Organization, Time management, Reliability
+
+      - label: Personal Strengths
+        details: Responsible, Patient, Tidy, Flexible, Stress resistant, Willing to learn
+
+    Additional Qualifications:
+      - label: Availability
+        details: Part-time, flexible timewise
+      - label: Professional qualification
+        details: Cisco CCNA
+
+design:
+  theme: moderncv
+  header:
+    alignment: left
+    photo_width: 4.15cm
+    photo_position: left
+    photo_space_left: 0cm
+    photo_space_right: 0.3cm
+
+locale:
+  language: english
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
+  pdf_title: Danium S. Syed - CV

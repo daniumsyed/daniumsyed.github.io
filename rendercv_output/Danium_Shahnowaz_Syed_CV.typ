@@ -6,7 +6,7 @@
   name: "Danium Shahnowaz Syed",
   title: "Danium S. Syed - CV",
   footer: context { [#emph[Danium Shahnowaz Syed -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Sept 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -54,7 +54,7 @@
   header-space-below-connections: 0.7cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
-  header-connections-display-urls-instead-of-usernames: true,
+  header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "|",
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 9,
-    day: 29,
+    month: 10,
+    day: 1,
   ),
 )
 
@@ -93,10 +93,10 @@
 #connections(
   [Berlin, Germany],
   [#link("mailto:danium.syed@stu.khas.edu.tr", icon: false, if-underline: false, if-color: false)[danium.syed\@stu.khas.edu.tr]],
-  [#link("tel:+49-174-7016505", icon: false, if-underline: false, if-color: false)[0174 7016505]],
+  [#link("tel:+49-174-7016505", icon: false, if-underline: false, if-color: false)[+49 174 7016505]],
   [#link("https://daniumsyed.github.io/", icon: false, if-underline: false, if-color: false)[daniumsyed.github.io]],
-  [#link("https://linkedin.com/in/danium-syed", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/danium-syed]],
-  [#link("https://scholar.google.com/citations?user=OWGHxCsAAAAJ", icon: false, if-underline: false, if-color: false)[scholar.google.com\/citations?user=OWGHxCsAAAAJ]],
+  [#link("https://scholar.google.com/citations?user=OWGHxCsAAAAJ", icon: false, if-underline: false, if-color: false)[Google Scholar]],
+  [#link("https://linkedin.com/in/danium-syed", icon: false, if-underline: false, if-color: false)[LinkedIn]],
 )
 
 
