@@ -14,7 +14,7 @@ cv:
   
   sections:
     Profile:
-      - MSc student with work experience in kitchen operations. Reliable, organized, calm under pressure, and comfortable working independently or in a team. Available for part-time work alongside studies.
+      - MSc student with work experience in kitchen operations. Reliable, organized, calm under pressure, and comfortable working independently or in a team. Available for part-time work.
 
     Education:
       - institution: SRH Hochschule Berlin
@@ -46,7 +46,7 @@ cv:
 
     Skills:
       - label: Languages
-        details: English (Advanced), German (Basic)
+        details: English (C1), German (A2)
 
       - label: Computer Skills
         details: Microsoft Office, Advanced computer skills, Technical problem solving
