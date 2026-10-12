@@ -1,84 +1,138 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
-
 cv:
-  name: Danium S. Syed
-  headline: MSc Student | Part-Time Work
-  location: Berlin, Germany
+  name: Danium Shahnowaz Syed
+  location: Berlin, Deutschland
   email: danium.syed@gmail.com
+  phone: "+49 1747016505"
   photo: photo.jpg
-  phone: +49-1747-01-6505
-  website:
-  social_networks:
-    - network: LinkedIn
-      username: danium-syed
-  
   sections:
-    Profile:
-      - MSc student with work experience in kitchen operations. Reliable, organized, calm under pressure, and comfortable working independently or in a team. Available for part-time work.
+    Persönliche Angaben:
+      - label: Geburtsdatum
+        details: 31.12.1999
 
-    Education:
-      - institution: SRH Hochschule Berlin
-        area: Computer Science
-        degree: MSc.
-        location: Berlin, Germany
+      - label: Anschrift
+        details: Neltstr. 35, Berlin
 
-      - institution: Kadir Has University
-        area: Applied Cybersecurity
-        degree: MSc.
-        location: Istanbul, Türkiye
+    Profil:
+      - bullet: Zuverlässiger und flexibler Bewerber mit Erfahrung in der Küchenarbeit und im IT-Umfeld. Arbeitet sorgfältig, lernt schnell und erledigt Aufgaben sowohl im Team als auch selbstständig.
 
-    Work Experience:
+    Berufserfahrung:
       - company: TakeoutBD
-        position: Kitchen Staff
-        location:
+        location: Dhaka, Bangladesch
+        position: Küchenmitarbeiter (Teilzeit)
+        start_date: 2024-01
+        end_date: 2024-08
         highlights:
-          - Maintained a clean and organized work area.
-          - Worked efficiently in a fast-paced team environment.
-          - Supported daily kitchen operations and followed work procedures.
+          - Unterstützung bei den täglichen Küchenabläufen und bei anfallenden Aufgaben.
+          - Sorgfältige und ordentliche Arbeitsweise in einem teamorientierten Umfeld.
 
       - company: Cyberforce
-        position: Cybersecurity Intern
-        location:
+        location: Istanbul, Türkei
+        position: Praktikant im Bereich Cybersecurity
+        start_date: 2025-06
+        end_date: 2025-10
         highlights:
-          - Performed technical security tasks and worked with computer-based tools.
-          - Worked independently while following defined procedures.
-          - Developed strong attention to detail and problem-solving skills.
+          - Unterstützung bei der Analyse von Sicherheitsrisiken in Machine-Learning-Modellen und -Dateien.
+          - Dokumentation technischer Ergebnisse und sorgfältige Bearbeitung von Aufgaben.
 
-    Skills:
-      - label: Languages
-        details: English (C1), German (A2)
+    Ausbildung:
+      - institution: SRH Hochschule Berlin
+        area: Computer Science
+        degree: M.Sc.
+        start_date: 2025-09
+        end_date: 2026-09
 
-      - label: Computer Skills
-        details: Microsoft Office, Advanced computer skills, Technical problem solving
+      - institution: Kadir Has University, Istanbul, Türkei
+        area: Applied Cybersecurity
+        degree: M.Sc.
+        start_date: 2024-09
+        end_date: 2025-09
 
-      - label: Work Skills
-        details: Communication, Teamwork, Independent working, Organization, Time management, Reliability
+      - institution: American International University-Bangladesh (AIUB), Dhaka
+        area: Electrical and Electronics Engineering
+        degree: B.Sc.
+        end_date: 2023
 
-      - label: Personal Strengths
-        details: Responsible, Patient, Tidy, Flexible, Stress resistant, Willing to learn
+      - institution: Mount Royal Academy, Bangladesch
+        area: Edexcel International Advanced Level (IAL)
+        end_date: 2019
 
-    Additional Qualifications:
-      - label: Availability
-        details: Part-time, flexible timewise
-      - label: Professional qualification
-        details: Cisco CCNA
+      - institution: Mount Royal Academy, Bangladesch
+        area: Edexcel International GCSE (O Level)
+        end_date: 2017
+
+    IT-Kenntnisse:
+      - label: Software und Computer
+        details: Microsoft Office, sehr gute allgemeine Computerkenntnisse, technische Problemlösung
+
+      - label: Arbeitsweise
+        details: Kommunikation, Teamfähigkeit, selbstständiges Arbeiten, Organisation, Zeitmanagement
+
+      - label: Persönliche Stärken
+        details: Zuverlässigkeit, Geduld, Ordnung, Flexibilität, schnelle Auffassungsgabe
+
+    Sprachen:
+      - label: Bengali
+        details: Muttersprache
+
+      - label: Englisch
+        details: C1; IELTS 8.0 (British Council, Dhaka)
+
+      - label: Deutsch
+        details: A1
+
+    Zertifikate und Zusatzqualifikationen:
+      - label: Cisco
+        details: Cisco Certified Network Associate (CCNA)
+
+      - label: Verfügbarkeit
+        details: Teilzeit bevorzugt; zeitlich flexibel
+
+
+locale:
+  language: german
 
 design:
   theme: moderncv
+  page:
+    size: a4
+    top_margin: 1.3cm
+    bottom_margin: 1.3cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+  colors:
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  typography:
+    font_family: Source Sans 3
+    font_size:
+      body: 10.5pt
+      name: 24pt
+      headline: 10pt
+      connections: 9pt
+      section_titles: 14pt
+    line_spacing: 0.5em
+    alignment: left
   header:
     alignment: left
-    photo_width: 4.15cm
-    photo_position: left
+    photo_width: 3cm
+    photo_position: right
     photo_space_left: 0cm
     photo_space_right: 0.3cm
-
-locale:
-  language: english
+    space_below_name: 0.3cm
+    space_below_connections: 0.4cm
+  section_titles:
+    type: moderncv
+    space_above: 0.45cm
+    space_below: 0.2cm
 
 settings:
   current_date: today
   render_command:
-    output_folder: rendercv_output
+    output_folder: rendercv_partime
     typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
     markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
@@ -90,4 +144,4 @@ settings:
     dont_generate_pdf: false
     dont_generate_png: true
   bold_keywords: []
-  pdf_title: Danium S. Syed - CV
+  pdf_title: Danium Syed Lebenslauf
