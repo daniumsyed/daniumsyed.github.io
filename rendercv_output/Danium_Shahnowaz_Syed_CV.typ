@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 1,
+    day: 13,
   ),
 )
 
@@ -102,7 +102,7 @@
 
 == Summary
 
-Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy\/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
+Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy\/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
 
 == Education
 
@@ -424,6 +424,6 @@ Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #strong[Security Research:] Vulnerability Analysis, Threat Modeling (MITRE ATT&CK), Penetration Testing (Hardware and Software), Incident Response
 
-#strong[Scripting:] Python, JavaScript, Bash, LaTeX
+#strong[Programming\/Scripting:] Python, JavaScript, Bash, LaTeX, C\/C++, SQL, HTML\/CSS
 
 #strong[Languages:] English (IELTS 8.0), Bengali (Native), Turkish (A1), German (A1, ongoing studies)

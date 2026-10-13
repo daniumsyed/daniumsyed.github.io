@@ -15,7 +15,7 @@ cv:
       fontawesome_icon: brands/linkedin
   sections:
     summary:
-      - Passionate Security Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
+      - Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in DevOps, System Administration, IIoT and privacy/security research. Holding a double Master's degree in Cybersecurity and a CCNA certification.
 
     education:
       - institution: Kadir Has University & SRH Berlin University of Applied Sciences
@@ -173,8 +173,8 @@ cv:
         details: Differential Privacy, Agentic AI, PyTorch, TensorFlow, vLLM/Ollama
       - label: Security Research
         details: Vulnerability Analysis, Threat Modeling (MITRE ATT&CK), Penetration Testing (Hardware and Software), Incident Response
-      - label: Scripting
-        details: Python, JavaScript, Bash, LaTeX
+      - label: Programming/Scripting
+        details: Python, JavaScript, Bash, LaTeX, C/C++, SQL, HTML/CSS
       - label: Languages
         details: English (IELTS 8.0), Bengali (Native), Turkish (A1), German (A1, ongoing studies)
 
