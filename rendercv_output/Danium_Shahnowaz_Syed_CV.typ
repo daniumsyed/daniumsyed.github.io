@@ -116,7 +116,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   main-column-second-row: [
-    - Selected among the top 32 students from over 1,000 applications
+    - Selected among the top 28 fully funded students from over 1,000 applications
 
     - Received a fully funded scholarship given to the top applicants
 
