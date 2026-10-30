@@ -27,7 +27,7 @@ cv:
         highlights:
           - Selected among the top 32 students from over 1,000 applications
           - Received a fully funded scholarship given to the top applicants
-          - 'GPA: 3.48/4.00 (KHAS), 1.8 (SRH)'
+          - 'GPA: 3.43/4.00 (KHAS), 1.8 (SRH, German scale)'
       - institution: American International University-Bangladesh (AIUB)
         area: Electrical and Electronics Engineering
         degree: BSc
@@ -180,6 +180,9 @@ cv:
 
 design:
   theme: engineeringresumes
+  templates:
+    education_entry:
+      main_column: "**DEGREE_WITH_AREA**, INSTITUTION -- LOCATION\nSUMMARY\nHIGHLIGHTS"
   header:
     connections:
       display_urls_instead_of_usernames: false

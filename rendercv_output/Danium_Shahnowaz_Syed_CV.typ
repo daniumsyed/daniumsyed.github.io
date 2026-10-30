@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 13,
+    day: 30,
   ),
 )
 
@@ -108,7 +108,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Kadir Has University & SRH Berlin University of Applied Sciences], Erasmus Mundus Master's in Applied Cybersecurity (CyberMACS) -- Istanbul & Berlin
+    #strong[Erasmus Mundus Master's in Applied Cybersecurity (CyberMACS)], Kadir Has University & SRH Berlin University of Applied Sciences -- Istanbul & Berlin
 
   ],
   [
@@ -120,14 +120,14 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
     - Received a fully funded scholarship given to the top applicants
 
-    - GPA: 3.48\/4.00 (KHAS), 1.8 (SRH)
+    - GPA: 3.43\/4.00 (KHAS), 1.8 (SRH, German scale)
 
   ],
 )
 
 #education-entry(
   [
-    #strong[American International University-Bangladesh (AIUB)], BSc in Electrical and Electronics Engineering -- Dhaka, Bangladesh
+    #strong[BSc in Electrical and Electronics Engineering], American International University-Bangladesh (AIUB) -- Dhaka, Bangladesh
 
   ],
   [
@@ -146,7 +146,7 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
 #education-entry(
   [
-    #strong[Mount Royal Academy], IGCSE and A-Levels in Pearson Edexcel British Curriculum -- Bangladesh
+    #strong[IGCSE and A-Levels in Pearson Edexcel British Curriculum], Mount Royal Academy -- Bangladesh
 
   ],
   [
