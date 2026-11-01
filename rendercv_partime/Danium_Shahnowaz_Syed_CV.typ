@@ -6,7 +6,7 @@
   name: "Danium Shahnowaz Syed",
   title: "Danium Syed Lebenslauf",
   footer: context { [#emph[Danium Shahnowaz Syed -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Zuletzt aktualisiert Okt 2026] ],
+  top-note: [ #emph[Zuletzt aktualisiert Nov 2026] ],
   locale-catalog-language: "de",
   text-direction: ltr,
   page-size: "a4",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 12,
+    month: 11,
+    day: 1,
   ),
 )
 
@@ -231,7 +231,7 @@
 
 #strong[Englisch:] C1; IELTS 8.0 (British Council, Dhaka)
 
-#strong[Deutsch:] A1
+#strong[Deutsch:] A2 (Kurse belegen)
 
 == Zertifikate und Zusatzqualifikationen
 
