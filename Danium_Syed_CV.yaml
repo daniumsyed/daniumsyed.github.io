@@ -44,6 +44,13 @@ cv:
         start_date: 2017-06
         end_date: 2019-06
         location: Bangladesh
+    "Additional Academic Training":
+      - name: Guest Coursework, Technical University of Darmstadt
+        date: In progress
+        location: Darmstadt, Germany
+        highlights:
+          - 'Cryptography on Hardware: Implementing cryptographic functions, including AES, on FPGAs using VHDL.'
+          - 'Physical Attacks & Countermeasures: Performing side-channel attacks on FPGA-based cryptographic implementations and studying countermeasures.'
 
     experience:
       - company: Cyberforce

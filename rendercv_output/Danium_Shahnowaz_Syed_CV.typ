@@ -6,7 +6,7 @@
   name: "Danium Shahnowaz Syed",
   title: "Danium S. Syed - CV",
   footer: context { [#emph[Danium Shahnowaz Syed -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Oct 2026] ],
+  top-note: [ #emph[Last updated in Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 30,
+    month: 11,
+    day: 7,
   ),
 )
 
@@ -154,6 +154,25 @@ Passionate Computer Engineer and Erasmus Mundus Scholar. Solid experience in Dev
 
   ],
   main-column-second-row: [
+  ],
+)
+
+== Additional Academic Training
+
+#regular-entry(
+  [
+    #strong[Guest Coursework, Technical University of Darmstadt] -- #strong[Darmstadt, Germany]
+
+  ],
+  [
+    In progress
+
+  ],
+  main-column-second-row: [
+    - Cryptography on Hardware: Implementing cryptographic functions, including AES, on FPGAs using VHDL.
+
+    - Physical Attacks & Countermeasures: Performing side-channel attacks on FPGA-based cryptographic implementations and studying countermeasures.
+
   ],
 )
 
